@@ -1,17 +1,66 @@
 var inquirer = require('inquirer')
 const filePath = './readme.md'
-const content = `# Readme
+const generateContent = ({ title, description, installation, contribution, test, license, github, email}) => `# ${title}
 
-This is the contents of my readme.
+## Description
+
+${description}
+
+## Table of Contents
+
+- <span id=install>Installation</span>
+- <span id=usage>Usage</span>
+- <span id=credit>Credits</span>
+- <span id=license>License</span>
+- <span id=badges>Badges</span>
+- <span id=feature>Features</span>
+- <span id=contributing>Contributing</span>
+- <span id=test>Tests</span>
+- <span id=question>Questions</span>
+
+## <span id=install>Installation</span>
+
+${installation}
+
+## <span id=usage>Usage</span>
+
+
+
+## <span id=credit>Credits</span>
+
+
+
+## <span id=license>License</span>
+
+${license}
+
+
+## <span id=badges>Badges</span>
+
+
+## <span id=feature>Features</span>
+
+
+## <span id=contributing>Contributing</span>
+
+${contribution}
+
+## <span id=test>Tests</span>
+
+${test}
+
+## <span id=question>Questions</span>
+
+If you have any questions, you can reach me @ <a href="github.com/${github}" target='_blank'>Github.com/${github}</a> 
+${email}
 `
-
 const fs = require('fs')
 const { default: Choice } = require('inquirer/lib/objects/choice')
 inquirer
     .prompt([
         {
             type: 'input',
-            name: 'project title',
+            name: 'title',
             message: 'What is the project title?'
         },
         {
@@ -21,17 +70,17 @@ inquirer
         },
         {
             type: 'input',
-            name: 'installation instructions',
+            name: 'installation',
             message: 'What are the installation instructions?'
         },
         {
             type: 'input',
-            name: 'contribution guidelines',
+            name: 'contribution',
             message: 'What are the contribution guidelines?'
         },
         {
             type: 'input',
-            name: 'test instructions',
+            name: 'test',
             message: 'What are the test instructions?'
         },
         {
@@ -42,18 +91,19 @@ inquirer
         },
         {
             type: 'input',
-            name: 'gitHub username',
+            name: 'github',
             message: 'What is your GitHub username?'
         },
         {
             type: 'input',
-            name: 'email address',
+            name: 'email',
             message: 'What is your email address?'
         }
     ])
-    .then((response) =>
-        fs.writeFile(filePath, content, (err) => {
-            err ? console.error(err) 
-            : console.log(`File written to ${filePath}`)
-    })
+    .then((answers) =>{
+        const readmeContent = generateContent(answers)
+
+        fs.writeFileSync('readme.md', readmeContent, (err) => 
+            err ? console.log(err) : console.log('Successfully created readme.md!')
     )
+})
