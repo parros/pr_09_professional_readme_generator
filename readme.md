@@ -1,10 +1,10 @@
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-# a
+[![License](https://img.shields.io/badge/License-EPL_2.0-red.svg)](https://opensource.org/licenses/EPL-2.0)
+# My title here
 
 
 ## Description
 
-b
+Me describing this project
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ b
 
 ## <span id=install>Installation</span>
 
-c
+Here is how you install it
 
 ## <span id=usage>Usage</span>
 
@@ -32,7 +32,7 @@ c
 
 ## <span id=license>License</span>
 
-Apache License 2.0
+Eclipse Public License 2.0
 
 
 ## <span id=badges>Badges</span>
@@ -43,14 +43,13 @@ Apache License 2.0
 
 ## <span id=contributing>How to Contribute</span>
 
-d
+If you want to contribute, do this.
 
 ## <span id=test>Tests</span>
 
-e
+Here is how to test stuff.
 
 ## <span id=question>Questions</span>
 
-If you have any questions, you can reach me @ <a href="github.com/f" target='_blank'>Github.com/f</a> 
-g
-
+If you have any questions, you can reach me @ <a href="github.com/parros" target='_blank'>Github.com/parros</a> 
+parkerosemeyer@gmail.com
