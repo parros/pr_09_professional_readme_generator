@@ -1,10 +1,10 @@
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v2.1-blue.svg)](https://www.gnu.org/licenses/lgpl-2.1)
-# a
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+# My title here
 
 
 ## Description
 
-b
+This is how you do the things
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ b
 
 ## <span id=install>Installation</span>
 
-c
+installing is done by this
 
 ## <span id=usage>Usage</span>
 
@@ -32,25 +32,26 @@ c
 
 ## <span id=license>License</span>
 
-GNU Lesser General Public License v2.1
+BSD 3-Clause "New" or "Revised" License
 
 
 ## <span id=badges>Badges</span>
 
 
+
 ## <span id=feature>Features</span>
+
 
 
 ## <span id=contributing>How to Contribute</span>
 
-d
+how you can contribute
 
 ## <span id=test>Tests</span>
 
-e
+testing is done this way
 
 ## <span id=question>Questions</span>
 
 If you have any questions, you can reach me @ <a href="github.com/parros" target='_blank'>Github.com/parros</a> 
-parkerosmeyer@gmail.com
-
+parkerosemeyer@gmail.com
