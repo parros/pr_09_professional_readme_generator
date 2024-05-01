@@ -1,10 +1,10 @@
-[![License](https://img.shields.io/badge/License-EPL_2.0-red.svg)](https://opensource.org/licenses/EPL-2.0)
-# My title here
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v2.1-blue.svg)](https://www.gnu.org/licenses/lgpl-2.1)
+# a
 
 
 ## Description
 
-Me describing this project
+b
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ Me describing this project
 
 ## <span id=install>Installation</span>
 
-Here is how you install it
+c
 
 ## <span id=usage>Usage</span>
 
@@ -32,7 +32,7 @@ Here is how you install it
 
 ## <span id=license>License</span>
 
-Eclipse Public License 2.0
+GNU Lesser General Public License v2.1
 
 
 ## <span id=badges>Badges</span>
@@ -43,13 +43,14 @@ Eclipse Public License 2.0
 
 ## <span id=contributing>How to Contribute</span>
 
-If you want to contribute, do this.
+d
 
 ## <span id=test>Tests</span>
 
-Here is how to test stuff.
+e
 
 ## <span id=question>Questions</span>
 
 If you have any questions, you can reach me @ <a href="github.com/parros" target='_blank'>Github.com/parros</a> 
-parkerosemeyer@gmail.com
+parkerosmeyer@gmail.com
+
