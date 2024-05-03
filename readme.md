@@ -4,7 +4,7 @@
 
 I created a readme generator to quickly create a professinal readme for new projects.
 
-## Installation
+## Install
 
 Remember to type npm i on the command line in the generator directory to install Inquirer for the generator to work.
 
@@ -17,3 +17,4 @@ When putting in your github username, the github.com/ is already put in so put i
 ## Credits
 
 I got the code for the badges from https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+0736b4c3a7ba
