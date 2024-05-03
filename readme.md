@@ -1,57 +1,19 @@
-[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-# My title here
-
+# Homework 9 Professional Readme Generator
 
 ## Description
 
-This is how you do the things
+I created a readme generator to quickly create a professinal readme for new projects.
 
-## Table of Contents
+## Installation
 
-- <a href=#install>Installation</a>
-- <a href=#usage>Usage</a>
-- <a href=#credit>Credits</a>
-- <a href=#license>License</a>
-- <a href=#badges>Badges</a>
-- <a href=#feature>Features</a>
-- <a href=#contributing>Contributing</a>
-- <a href=#test>Tests</a>
-- <a href=#question>Questions</a>
+Remember to type npm i on the command line in the generator directory to install Inquirer for the generator to work.
 
-## <span id=install>Installation</span>
+## Usage
 
-installing is done by this
+To use the generator, type node index.js on the command line in the generator directory then you can start answering the questions to create a readme.
+When you pick a license from the list, then a badge will be created at the top of the readme.
+When putting in your github username, the github.com/ is already put in so put in ONLY the username such as parros.
 
-## <span id=usage>Usage</span>
+## Credits
 
-
-
-## <span id=credit>Credits</span>
-
-
-
-## <span id=license>License</span>
-
-BSD 3-Clause "New" or "Revised" License
-
-
-## <span id=badges>Badges</span>
-
-
-
-## <span id=feature>Features</span>
-
-
-
-## <span id=contributing>How to Contribute</span>
-
-how you can contribute
-
-## <span id=test>Tests</span>
-
-testing is done this way
-
-## <span id=question>Questions</span>
-
-If you have any questions, you can reach me @ <a href="github.com/parros" target='_blank'>Github.com/parros</a> 
-parkerosemeyer@gmail.com
+I got the code for the badges from https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba

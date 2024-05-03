@@ -8,7 +8,6 @@ const licenseOptions = ['N/A', 'Apache License 2.0', 'GNU General Public License
 const generateContent = ({ title, description, installation, contribution, test, license, github, email, badge }) => `${badge}
 # ${title}
 
-
 ## Description
 
 ${description}
@@ -60,7 +59,7 @@ ${test}
 
 ## <span id=question>Questions</span>
 
-If you have any questions, you can reach me @ <a href="github.com/${github}" target='_blank'>Github.com/${github}</a> 
+If you have any questions, you can reach me @ <a href="https://github.com/${github}" target='_blank'>Github.com/${github}</a> 
 ${email}
 `
 
@@ -156,7 +155,7 @@ inquirer
         const readmeContent = generateContent(answers)
 
         // Creates readme.md
-        fs.writeFileSync('readme.md', readmeContent, (err) =>
+        fs.writeFileSync('generated_readme.md', readmeContent, (err) =>
             err ? console.log(err) : console.log('Successfully created readme.md!')
         )
     })
