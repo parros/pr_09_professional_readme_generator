@@ -16,5 +16,9 @@ When putting in your github username, the github.com/ is already put in so put i
 
 ## Credits
 
+<<<<<<< HEAD
 I got the code for the badges from https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 0736b4c3a7ba
+=======
+I got the code for the badges from https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+>>>>>>> a7c77387dc415c51199d72141a125c9a463d1e6a
