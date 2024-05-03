@@ -1,6 +1,4 @@
-
 # Homework 9 Professional Readme Generator
-
 
 ## Description
 
@@ -18,5 +16,4 @@ To use the generator, type node index.js in the command line then you can start 
 
 https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
-## <span id=feature>Features</span>
-
+## Features
