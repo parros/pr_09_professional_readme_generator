@@ -1,58 +1,22 @@
 
-# you
+# Homework 9 Professional Readme Generator
 
 
 ## Description
 
-me
+I created a readme generator to quickly create a professinal readme for new projects.
 
-## Table of Contents
+## Installation
 
-- <a href=#install>Installation</a>
-- <a href=#usage>Usage</a>
-- <a href=#credit>Credits</a>
-- <a href=#license>License</a>
-- <a href=#badges>Badges</a>
-- <a href=#feature>Features</a>
-- <a href=#contributing>Contributing</a>
-- <a href=#test>Tests</a>
-- <a href=#question>Questions</a>
+Remember to type npm i in the command line in the correct directory to install Inquirer.
 
-## <span id=install>Installation</span>
+## Usage
 
-this
+To use the generator, type node index.js in the command line then you can start answer 
 
-## <span id=usage>Usage</span>
+## Credits
 
-
-
-## <span id=credit>Credits</span>
-
-
-
-## <span id=license>License</span>
-
-N/A
-
-
-## <span id=badges>Badges</span>
-
-
+https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
 ## <span id=feature>Features</span>
-
-
-
-## <span id=contributing>How to Contribute</span>
-
-that
-
-## <span id=test>Tests</span>
-
-who
-
-## <span id=question>Questions</span>
-
-If you have any questions, you can reach me @ <a href="https://github.com/Parros/" target='_blank'>Github.com/parros</a> 
-lasfkd
 
