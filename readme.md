@@ -53,6 +53,6 @@ who
 
 ## <span id=question>Questions</span>
 
-If you have any questions, you can reach me @ <a href="github.com/users/parros" target='_blank'>Github.com/parros</a> 
+If you have any questions, you can reach me @ <a href="[github.com/users/parros](https://github.com/parros)" target='_blank'>Github.com/parros</a> 
 lasfkd
 
